@@ -16,4 +16,7 @@ double multiply(double x, double y) { return x * y; }
 int main() {
     auto p = std::bind(multiply, 10, 3);
     std::cout << "Product = " << p() << std::endl;
+
+    auto q = std::bind(multiply, 9, 5);
+    std::cout << "q = " << q() << std::endl;
 }
