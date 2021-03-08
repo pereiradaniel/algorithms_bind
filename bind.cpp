@@ -6,6 +6,8 @@
 // corresponding function object.When we call the function object, it returns
 // the result for the specified arguments.
 
+// std::bind stores the arguments passed in by copying their values.
+
 #include <iostream>
 #include <functional>
 
